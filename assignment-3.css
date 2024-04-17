@@ -1,0 +1,60 @@
+/* Style the section using
+    flex,
+    flex-direction,
+    gap,
+    margin,
+    padding,
+    background-color,
+    border-radius,
+    max-width
+ */
+
+ body{
+    
+    background-color: rebeccapurple;
+ }
+
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    gap: 20px; 
+    margin: 40px;
+    padding: 40px;
+    background-color: bisque;
+    border-radius: 30px;
+    max-width: 1000px; 
+}
+ .row
+
+ {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    gap: 20px;
+    width:500px; 
+    margin-bottom: 20px;
+    
+}
+
+
+@media screen and (max-width: 900px) 
+{
+   .container
+   {
+    flex-direction: column;
+   } 
+    .row{
+        flex-direction: row;
+    }
+}
+    
+    
+    
+
+
+    
+
+
+
+

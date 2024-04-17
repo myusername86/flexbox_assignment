@@ -1,0 +1,70 @@
+.site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 0px;
+    gap:40px;
+}
+
+#head-menu {
+    display:flex;
+    
+
+    border-bottom: 2px solid burlywood; 
+    border-top: 4px solid burlywood;
+    border-left: 4px solid burlywood;
+    border-right:4px solid burlywood;
+    background-color: burlywood;
+    justify-content:center;
+    
+    
+}
+
+#sub-menu {
+    border-top: 2px solid aqua; 
+    border-bottom: 4px solid aqua;
+    background-color: aqua;
+    border-left: 4px solid aqua;
+    border-right:4px solid aqua;
+    gap: 20px;
+    
+    
+}
+#promotion a {
+    background-color: red; 
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: black; 
+    margin-left: 10px; 
+    white-space: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 2px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sale-box {
+    background-color:lightgrey ; 
+    padding: 15px; 
+    margin-bottom: 0px;
+    width: 50px;
+    height: 0px; 
+    justify-content: center;
+    border-left: 0;
+    font-size:20px;
+    border:1px solid black;
+    text-align: center;
+    
+}
